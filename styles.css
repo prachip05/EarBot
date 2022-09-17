@@ -1,0 +1,235 @@
+.a div{
+    display: inline-block;
+    margin-left: 100px;
+  
+}
+.home1 a img{
+    transition: transform .7s ease-in-out;
+    border-radius: 150px;
+
+}
+
+.home1 a img:hover {
+    transform: rotate(360deg);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    margin-bottom: 0!important;
+    padding: 10px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(188, 182, 182);
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.navbar1 a{
+    margin-left: 20px;
+}
+
+.carousel-inner{
+    /* margin-top: 1px; */
+    height: 700px;
+}
+
+.main{
+    background-image: url(images/img4.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b{
+    background-color: black;
+}
+
+.b div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.divs{
+    
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .divs:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .social{
+    margin-top: 20px;
+  }
+
+  .c{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .c div{
+    display: inline-block;
+  }
+
+/*   
+form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+    height: 25px;
+  } */
+
+/* 
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    height: 25px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    height: 25px;
+  } */
+
+  .navbar5 a{
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar5{
+    display: inline-block;
+    
+}
+
+/* .searchbar{
+    display: inline-block;
+    margin-left: 20px;
+} */
+
+/* .navbar form{
+    display: inline-block;
+} */
+
+.navbar5 .search-container {
+    float: right;
+    
+  }
+  
+  .navbar5 input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    height: 25px;
+    width: 150px;
+  }
+
+.navbar5 .search-container button {
+    float: right;
+    padding: 2px 2px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+  }
+  
+  .navbar5 .search-container button:hover {
+    background: #ccc;
+  }
+  @media screen and (max-width: 400px) {
+    .navbar5 .search-container {
+      float: none;
+    }
+    .navbar5 a, .navbar5 input[type=text], .navbar5 .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 90%;
+      margin: 0;
+      padding: 14px;
+    }
+    .navbar5 input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+  .contact1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right:20px;
+    padding-bottom:20px ;
+  }
+
+  .contact1 h6 input{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contact1 input{
+    width: 80%;
+  }
